@@ -1,17 +1,14 @@
 # Car_Company_Manufacturing_Optimization
 Problem Statement:-
 
-Suppose that you're working for some company XYZ and they're looking to launch a new product. For this, the company has prepared a small 10-second ad to be showcased on television. Now, your company wants to do an ad campaign for this product on television on three main types of channels - News, Sports, and Entertainment. The cost of ad time is different for each of these channels and this cost also varies owing to the day of the week, i.e., the cost on the weekends is 20% more than that during the weekdays. The cost/10 seconds of ad time (on weekdays) on these three types of channels are:
+Suppose you own a car company, which produces two models of a car, Model 1 and Model 2. Their selling prices are ₹30 lakh and ₹45 lakh, respectively. You purchase the components of both the cars from another manufacturer at ₹15 lakh and ₹22.5 lakh, respectively and then assemble them. One of the primary reasons for your success is that you test the cars thoroughly after assembling them and before rolling them out in the market. Assembling costs you ₹1,100 per labour hour; Model 1 requires 500 assembling hours, and Model 2, 600 assembling hours. Testing is a slightly more expensive process, at ₹1,500 per labour hour; you need 100 hours for testing Model 1 and 200 hours for testing Model 2. With the number of workers in your factory, the maximum number of assembly hours and testing hours that you can get is also limited, that is, 10,00,000 assembly hours and 3,00,000 testing hours.
 
-    News: ₹40,000
-    Sports: ₹80,000
-    Entertainment: ₹65,000
 
-The marketing budget allotted for this ad campaign is ₹10 crore and the plan to distribute it is as follows:
+You recently manufactured a new premium model, Model3, which you have decided to sell at ₹60 lakh. Its components cost ₹27.5 lakh, and it requires 800 assembly hours and 300 testing hours.
 
-    At least ₹2 crores spent on each of the three types of channel.
-    At least ₹2.5 crores spent during the weekdays.
-    At least ₹4 crores spent during the weekends.
-    At least ₹50 lakhs spent/type of channel/type of day i.e., at least ₹50 lakhs should be spent on every type of channel and on every type of the day, i.e., both weekdays and weekends. For example, money spent on ad time, say, news channels on weekdays should be at least ₹50 lakhs. Similarly, money spent on entertainment channels on weekends should be at least ₹50 lakhs.
 
-So using the budget allocated and all the above constraints, you want to maximise the number of times the ad is shown on TV.
+You ask your marketing team to provide you the sales prediction along with the respective costs of all three models. They tell you they can sell a maximum of 600 cars of Model 1, 1200 cars of Model 2, and only 50 cars of Model 3, as it is new and expensive. At this point, you realise that you don't have enough working labour hours to maximise the production to 600 + 1200 + 50 cars, i.e., 1850 cars. You decide to hire more workers, but until then, you have to manage with the current restraints. Now, with these restraints in place, you have to determine how many of each model you should produce to maximise your profits.
+
+ 
+
+After determining the optimum distribution, you have to do a sensitivity analysis to see the effect of a change in the selling price of Model 3 on the overall distribution and profits.
